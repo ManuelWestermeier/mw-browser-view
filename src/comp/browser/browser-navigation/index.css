@@ -1,0 +1,18 @@
+.browser-navigation {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px -2px var(--p);
+    background-color: var(--p);
+}
+
+.browser-navigation form {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.browser-navigation form input {
+    width: calc(100dvw - 90px);
+}

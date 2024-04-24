@@ -1,0 +1,16 @@
+.browser-view {
+    width: 100%;
+    height: calc(100% - 56px);
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.browser-view canvas {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--c);
+    color: var(--b);
+    fill: var(--b);
+}
